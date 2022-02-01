@@ -1,0 +1,75 @@
+DATA_BLOCK "Arrays"
+TITLE =
+VERSION : 0.1
+
+
+  STRUCT 	
+   DataArray : ARRAY  [1 .. 64 ] OF BOOL //Temporary placeholder variable
+  END_STRUCT ;	
+BEGIN
+   DataArray[1] := FALSE; 
+   DataArray[2] := FALSE; 
+   DataArray[3] := FALSE; 
+   DataArray[4] := FALSE; 
+   DataArray[5] := FALSE; 
+   DataArray[6] := FALSE; 
+   DataArray[7] := FALSE; 
+   DataArray[8] := FALSE; 
+   DataArray[9] := FALSE; 
+   DataArray[10] := FALSE; 
+   DataArray[11] := FALSE; 
+   DataArray[12] := FALSE; 
+   DataArray[13] := FALSE; 
+   DataArray[14] := FALSE; 
+   DataArray[15] := FALSE; 
+   DataArray[16] := FALSE; 
+   DataArray[17] := FALSE; 
+   DataArray[18] := FALSE; 
+   DataArray[19] := FALSE; 
+   DataArray[20] := FALSE; 
+   DataArray[21] := FALSE; 
+   DataArray[22] := FALSE; 
+   DataArray[23] := FALSE; 
+   DataArray[24] := FALSE; 
+   DataArray[25] := FALSE; 
+   DataArray[26] := FALSE; 
+   DataArray[27] := FALSE; 
+   DataArray[28] := FALSE; 
+   DataArray[29] := FALSE; 
+   DataArray[30] := FALSE; 
+   DataArray[31] := FALSE; 
+   DataArray[32] := FALSE; 
+   DataArray[33] := FALSE; 
+   DataArray[34] := FALSE; 
+   DataArray[35] := FALSE; 
+   DataArray[36] := FALSE; 
+   DataArray[37] := FALSE; 
+   DataArray[38] := FALSE; 
+   DataArray[39] := FALSE; 
+   DataArray[40] := FALSE; 
+   DataArray[41] := FALSE; 
+   DataArray[42] := FALSE; 
+   DataArray[43] := FALSE; 
+   DataArray[44] := FALSE; 
+   DataArray[45] := FALSE; 
+   DataArray[46] := FALSE; 
+   DataArray[47] := FALSE; 
+   DataArray[48] := FALSE; 
+   DataArray[49] := FALSE; 
+   DataArray[50] := FALSE; 
+   DataArray[51] := FALSE; 
+   DataArray[52] := FALSE; 
+   DataArray[53] := FALSE; 
+   DataArray[54] := FALSE; 
+   DataArray[55] := FALSE; 
+   DataArray[56] := FALSE; 
+   DataArray[57] := FALSE; 
+   DataArray[58] := FALSE; 
+   DataArray[59] := FALSE; 
+   DataArray[60] := FALSE; 
+   DataArray[61] := FALSE; 
+   DataArray[62] := FALSE; 
+   DataArray[63] := FALSE; 
+   DataArray[64] := FALSE; 
+END_DATA_BLOCK
+
