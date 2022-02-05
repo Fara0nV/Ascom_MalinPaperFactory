@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<DriverSettings>
+<GeneralSettings WaitTime="0" TimeOut="2000" SynchroStart="false" MinimumJobThreshold="5" DefRefreshTimeNotInUse="10000" EnableCOMInterface="true" PollingTime="0" PollingTimeNotInUse="10000" PriorityProtocolThread="0" BaseClassBuild="282" DriverVersion="184615940" AggregationLimit="0" DirectWriteIO="false" SetInUseStructureFields="false" SuspendTasksInError="true" szWinCEProtocolPriority="-1" ExpandGroup1="0"/>
+<Debug DebugWindow="false" MaxLogEntries="10000" LogFileName="" EnableLogFile="true" ExpandGroup2="0"/>
+<DeviceDriverSettings Br="1" HSA="1" TS="1" ExpandVipaMpiGroup1="0"/>
+<JobList/>
+<StationList>
+<Station>
+<Name MaxRetries="0" StateVariable="" ExpandGroup1="0">Default Station</Name>
+<DeviceSettings RA="2" ExpandVipaMpiGroup1="1" RemoteRack="0" RemoteSlot="2"/>
+</Station>
+</StationList>
+</DriverSettings>

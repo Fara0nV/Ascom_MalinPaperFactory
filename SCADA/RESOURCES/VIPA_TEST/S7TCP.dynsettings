@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<DriverSettings>
+<JobList>
+<Job>
+<Name Type="1" Station="PLC15_12" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 1</Name>
+<VariableList/>
+<TotalJobSize>2</TotalJobSize>
+<TagList>
+<Tag variable="EXAMPLE_VAR" type="4" offset="0" size="2">EXAMPLE_VAR</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW200" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_11" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 2</Name>
+<VariableList/>
+<TotalJobSize>2</TotalJobSize>
+<TagList>
+<Tag variable="VAR_CPU17" type="4" offset="0" size="2">VAR_CPU17</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW300" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 3</Name>
+<VariableList/>
+<TotalJobSize>103</TotalJobSize>
+<TagList>
+<Tag variable="Sushka_6_kontrol_kn_zapobiznuk" type="0" offset="53" size="1">Sushka_6_kontrol_kn_zapobiznuk</Tag>
+<Tag variable="Sushka_7_kontrol_avaria_temperatura" type="0" offset="66" size="1">Sushka_7_kontrol_avaria_temperatura</Tag>
+<Tag variable="Rozg_tambur_kontrol_vklushitu" type="0" offset="79" size="1">Rozg_tambur_kontrol_vklushitu</Tag>
+<Tag variable="Sushka_1_kontrol_kn_zapobiznuk" type="0" offset="44" size="1">Sushka_1_kontrol_kn_zapobiznuk</Tag>
+<Tag variable="Paper_ved_val_2_kontrol_poperedz_temperatura" type="0" offset="40" size="1">Paper_ved_val_2_kontrol_poperedz_temperatura</Tag>
+<Tag variable="Paper_ved_3_kontrol_avaria" type="0" offset="67" size="1">Paper_ved_3_kontrol_avaria</Tag>
+<Tag variable="Nakat_kontrol_vklushitu" type="0" offset="83" size="1">Nakat_kontrol_vklushitu</Tag>
+<Tag variable="Sushka_7_kontrol_kn_zapobiznuk" type="0" offset="57" size="1">Sushka_7_kontrol_kn_zapobiznuk</Tag>
+<Tag variable="Rozg_tambur_kontrol_blokuvanna" type="0" offset="80" size="1">Rozg_tambur_kontrol_blokuvanna</Tag>
+<Tag variable="Kalandr_kontrol_kn_zapobiznuk" type="0" offset="72" size="1">Kalandr_kontrol_kn_zapobiznuk</Tag>
+<Tag variable="Kalandr_kontrol_vklushitu" type="0" offset="74" size="1">Kalandr_kontrol_vklushitu</Tag>
+<Tag variable="Paper_ved_3_kontrol_kn_zapobiznuk" type="0" offset="68" size="1">Paper_ved_3_kontrol_kn_zapobiznuk</Tag>
+<Tag variable="Paper_ved_val_1_kontrol_kn_zapobiznuk" type="0" offset="29" size="1">Paper_ved_val_1_kontrol_kn_zapobiznuk</Tag>
+<Tag variable="Paper_ved_val_1_kontrol_poperedz_temperatura" type="0" offset="36" size="1">Paper_ved_val_1_kontrol_poperedz_temperatura</Tag>
+<Tag variable="Nakat_kontrol_blokuvanna" type="0" offset="85" size="1">Nakat_kontrol_blokuvanna</Tag>
+<Tag variable="Sushka_5_kontrol_kn_zapobiznuk" type="0" offset="48" size="1">Sushka_5_kontrol_kn_zapobiznuk</Tag>
+<Tag variable="Jolobchatiy_val_kontrol_avaria" type="0" offset="10" size="1">Jolobchatiy_val_kontrol_avaria</Tag>
+<Tag variable="Gluh_perf_val_kontrol_avaria_temperatura" type="0" offset="27" size="1">Gluh_perf_val_kontrol_avaria_temperatura</Tag>
+<Tag variable="Paper_ved_val_2_kontrol_kn_zapobiznuk" type="0" offset="33" size="1">Paper_ved_val_2_kontrol_kn_zapobiznuk</Tag>
+<Tag variable="Kalandr_kontrol_avaria_temperatura" type="0" offset="75" size="1">Kalandr_kontrol_avaria_temperatura</Tag>
+<Tag variable="Sushka_5_kontrol_avaria_temperatura" type="0" offset="51" size="1">Sushka_5_kontrol_avaria_temperatura</Tag>
+<Tag variable="DI12_3" type="0" offset="99" size="1">DI12_3</Tag>
+<Tag variable="Sushka_7_kontrol_vklushitu" type="0" offset="59" size="1">Sushka_7_kontrol_vklushitu</Tag>
+<Tag variable="Jolobchatiy_val_kontrol_poperedz_temperatura" type="0" offset="12" size="1">Jolobchatiy_val_kontrol_poperedz_temperatura</Tag>
+<Tag variable="Vidsm_val_kontrol_kn_zapobiznuk" type="0" offset="0" size="1">Vidsm_val_kontrol_kn_zapobiznuk</Tag>
+<Tag variable="Keram_val_2_kontrol_blokuvanna" type="0" offset="17" size="1">Keram_val_2_kontrol_blokuvanna</Tag>
+<Tag variable="Suska_4_kontrol_avaria" type="0" offset="93" size="1">Suska_4_kontrol_avaria</Tag>
+<Tag variable="Keram_val_2_kontrol_vklushitu" type="0" offset="22" size="1">Keram_val_2_kontrol_vklushitu</Tag>
+<Tag variable="Keram_val_1_kontrol_kn_zapobiznuk" type="0" offset="9" size="1">Keram_val_1_kontrol_kn_zapobiznuk</Tag>
+<Tag variable="Nakat_kontrol_poperedz_temperatura" type="0" offset="88" size="1">Nakat_kontrol_poperedz_temperatura</Tag>
+<Tag variable="Suska_3_kontrol_avaria" type="0" offset="91" size="1">Suska_3_kontrol_avaria</Tag>
+<Tag variable="Paper_ved_3_kontrol_blokuvanna" type="0" offset="65" size="1">Paper_ved_3_kontrol_blokuvanna</Tag>
+<Tag variable="Paper_ved_3_kontrol_avaria_temperatura" type="0" offset="71" size="1">Paper_ved_3_kontrol_avaria_temperatura</Tag>
+<Tag variable="Sushka_7_kontrol_avaria" type="0" offset="63" size="1">Sushka_7_kontrol_avaria</Tag>
+<Tag variable="Keram_val_2_kontrol_kn_zapobiznuk" type="0" offset="20" size="1">Keram_val_2_kontrol_kn_zapobiznuk</Tag>
+<Tag variable="Kalandr_kontrol_blokuvanna" type="0" offset="76" size="1">Kalandr_kontrol_blokuvanna</Tag>
+<Tag variable="Keram_val_2_kontrol_avaria_temperatura" type="0" offset="23" size="1">Keram_val_2_kontrol_avaria_temperatura</Tag>
+<Tag variable="Keram_val_1_kontrol_poperedz_temperatura" type="0" offset="16" size="1">Keram_val_1_kontrol_poperedz_temperatura</Tag>
+<Tag variable="Klei_pres_6_kontrol_avaria" type="0" offset="97" size="1">Klei_pres_6_kontrol_avaria</Tag>
+<Tag variable="Suska_2_kontrol_avaria" type="0" offset="89" size="1">Suska_2_kontrol_avaria</Tag>
+<Tag variable="Gluh_perf_val_kontrol_blokuvanna" type="0" offset="28" size="1">Gluh_perf_val_kontrol_blokuvanna</Tag>
+<Tag variable="Sushka_1_kontrol_poperedz_temperatura" type="0" offset="45" size="1">Sushka_1_kontrol_poperedz_temperatura</Tag>
+<Tag variable="Sushka_6_kontrol_avaria" type="0" offset="58" size="1">Sushka_6_kontrol_avaria</Tag>
+<Tag variable="Sitka_povorot_val_kontrol_avaria" type="0" offset="92" size="1">Sitka_povorot_val_kontrol_avaria</Tag>
+<Tag variable="Sushka_7_kontrol_blokuvanna" type="0" offset="61" size="1">Sushka_7_kontrol_blokuvanna</Tag>
+<Tag variable="Sushka_6_kontrol_avaria_temperatura" type="0" offset="62" size="1">Sushka_6_kontrol_avaria_temperatura</Tag>
+<Tag variable="Sushka_1_kontrol_blokuvanna" type="0" offset="41" size="1">Sushka_1_kontrol_blokuvanna</Tag>
+<Tag variable="Rozg_tambur_kontrol_avaria" type="0" offset="82" size="1">Rozg_tambur_kontrol_avaria</Tag>
+<Tag variable="Sushka_5_kontrol_vklushitu" type="0" offset="50" size="1">Sushka_5_kontrol_vklushitu</Tag>
+<Tag variable="Gluh_perf_val_kontrol_kn_zapobiznuk" type="0" offset="24" size="1">Gluh_perf_val_kontrol_kn_zapobiznuk</Tag>
+<Tag variable="Nakat_kontrol_avaria_temperatura" type="0" offset="90" size="1">Nakat_kontrol_avaria_temperatura</Tag>
+<Tag variable="Klei_pres_5_kontrol_avaria" type="0" offset="102" size="1">Klei_pres_5_kontrol_avaria</Tag>
+<Tag variable="Rozg_tambur_kontrol_avaria_temperatura" type="0" offset="86" size="1">Rozg_tambur_kontrol_avaria_temperatura</Tag>
+<Tag variable="Sushka_5_kontrol_avaria" type="0" offset="54" size="1">Sushka_5_kontrol_avaria</Tag>
+<Tag variable="Sushka_1_kontrol_avaria_temperatura" type="0" offset="47" size="1">Sushka_1_kontrol_avaria_temperatura</Tag>
+<Tag variable="Jolobchatiy_val_kontrol_blokuvanna" type="0" offset="8" size="1">Jolobchatiy_val_kontrol_blokuvanna</Tag>
+<Tag variable="Keram_val_2_kontrol_poperedz_temperatura" type="0" offset="21" size="1">Keram_val_2_kontrol_poperedz_temperatura</Tag>
+<Tag variable="Paper_ved_val_1_kontrol_avaria_temperatura" type="0" offset="38" size="1">Paper_ved_val_1_kontrol_avaria_temperatura</Tag>
+<Tag variable="Keram_val_1_kontrol_blokuvanna" type="0" offset="13" size="1">Keram_val_1_kontrol_blokuvanna</Tag>
+<Tag variable="Kalandr_kontrol_poperedz_temperatura" type="0" offset="73" size="1">Kalandr_kontrol_poperedz_temperatura</Tag>
+<Tag variable="Paper_ved_val_1_kontrol_vklushitu" type="0" offset="31" size="1">Paper_ved_val_1_kontrol_vklushitu</Tag>
+<Tag variable="Sushka_6_kontrol_blokuvanna" type="0" offset="56" size="1">Sushka_6_kontrol_blokuvanna</Tag>
+<Tag variable="Paper_ved_val_2_kontrol_avaria" type="0" offset="39" size="1">Paper_ved_val_2_kontrol_avaria</Tag>
+<Tag variable="Keram_val_2_kontrol_avaria" type="0" offset="19" size="1">Keram_val_2_kontrol_avaria</Tag>
+<Tag variable="Jolobchatiy_val_kontrol_vklushitu" type="0" offset="7" size="1">Jolobchatiy_val_kontrol_vklushitu</Tag>
+<Tag variable="Klei_pres_4_kontrol_avaria" type="0" offset="100" size="1">Klei_pres_4_kontrol_avaria</Tag>
+<Tag variable="Rozg_tambur_kontrol_kn_zapobiznuk" type="0" offset="77" size="1">Rozg_tambur_kontrol_kn_zapobiznuk</Tag>
+<Tag variable="Paper_ved_val_2_kontrol_blokuvanna" type="0" offset="37" size="1">Paper_ved_val_2_kontrol_blokuvanna</Tag>
+<Tag variable="Paper_ved_3_kontrol_vklushitu" type="0" offset="70" size="1">Paper_ved_3_kontrol_vklushitu</Tag>
+<Tag variable="Gauch_val_kontrol_avaria" type="0" offset="94" size="1">Gauch_val_kontrol_avaria</Tag>
+<Tag variable="Paper_ved_val_1_kontrol_avaria" type="0" offset="34" size="1">Paper_ved_val_1_kontrol_avaria</Tag>
+<Tag variable="Keram_val_1_kontrol_avaria" type="0" offset="15" size="1">Keram_val_1_kontrol_avaria</Tag>
+<Tag variable="Gluh_perf_val_kontrol_avaria" type="0" offset="30" size="1">Gluh_perf_val_kontrol_avaria</Tag>
+<Tag variable="Klei_pres_3_kontrol_avaria" type="0" offset="98" size="1">Klei_pres_3_kontrol_avaria</Tag>
+<Tag variable="Nakat_kontrol_avaria" type="0" offset="87" size="1">Nakat_kontrol_avaria</Tag>
+<Tag variable="Nakat_kontrol_kn_zapobiznuk" type="0" offset="81" size="1">Nakat_kontrol_kn_zapobiznuk</Tag>
+<Tag variable="Jolobchatiy_val_kontrol_avaria_temperatura" type="0" offset="14" size="1">Jolobchatiy_val_kontrol_avaria_temperatura</Tag>
+<Tag variable="Sushka_6_kontrol_poperedz_temperatura" type="0" offset="60" size="1">Sushka_6_kontrol_poperedz_temperatura</Tag>
+<Tag variable="Paper_ved_val_1_kontrol_blokuvanna" type="0" offset="32" size="1">Paper_ved_val_1_kontrol_blokuvanna</Tag>
+<Tag variable="Gluh_perf_val_kontrol_poperedz_temperatura" type="0" offset="25" size="1">Gluh_perf_val_kontrol_poperedz_temperatura</Tag>
+<Tag variable="Paper_ved_3_kontrol_poperedz_temperatura" type="0" offset="69" size="1">Paper_ved_3_kontrol_poperedz_temperatura</Tag>
+<Tag variable="Klei_pres_2_kontrol_avaria" type="0" offset="96" size="1">Klei_pres_2_kontrol_avaria</Tag>
+<Tag variable="Kalandr_kontrol_avaria" type="0" offset="78" size="1">Kalandr_kontrol_avaria</Tag>
+<Tag variable="Keram_val_1_kontrol_vklushitu" type="0" offset="11" size="1">Keram_val_1_kontrol_vklushitu</Tag>
+<Tag variable="Sushka_5_kontrol_poperedz_temperatura" type="0" offset="49" size="1">Sushka_5_kontrol_poperedz_temperatura</Tag>
+<Tag variable="Paper_ved_val_2_kontrol_vklushitu" type="0" offset="35" size="1">Paper_ved_val_2_kontrol_vklushitu</Tag>
+<Tag variable="Rozg_tambur_kontrol_poperedz_temperatura" type="0" offset="84" size="1">Rozg_tambur_kontrol_poperedz_temperatura</Tag>
+<Tag variable="Keram_val_1_kontrol_avaria_temperatura" type="0" offset="18" size="1">Keram_val_1_kontrol_avaria_temperatura</Tag>
+<Tag variable="Paper_ved_val_2_kontrol_avaria_temperatura" type="0" offset="42" size="1">Paper_ved_val_2_kontrol_avaria_temperatura</Tag>
+<Tag variable="Sushka_1_kontrol_vklushitu" type="0" offset="46" size="1">Sushka_1_kontrol_vklushitu</Tag>
+<Tag variable="Klei_pres_1_kontrol_avaria" type="0" offset="95" size="1">Klei_pres_1_kontrol_avaria</Tag>
+<Tag variable="Sushka_7_kontrol_poperedz_temperatura" type="0" offset="64" size="1">Sushka_7_kontrol_poperedz_temperatura</Tag>
+<Tag variable="Sushka_1_kontrol_avaria" type="0" offset="43" size="1">Sushka_1_kontrol_avaria</Tag>
+<Tag variable="Sushka_6_kontrol_vklushitu" type="0" offset="55" size="1">Sushka_6_kontrol_vklushitu</Tag>
+<Tag variable="Sushka_5_kontrol_blokuvanna" type="0" offset="52" size="1">Sushka_5_kontrol_blokuvanna</Tag>
+<Tag variable="Gluh_perf_val_kontrol_vklushitu" type="0" offset="26" size="1">Gluh_perf_val_kontrol_vklushitu</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="I0.0:103" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 4</Name>
+<VariableList/>
+<TotalJobSize>7</TotalJobSize>
+<TagList>
+<Tag variable="Vidsm_val_kontrol_avaria_temperatura" type="0" offset="3" size="1">Vidsm_val_kontrol_avaria_temperatura</Tag>
+<Tag variable="Jolobchatiy_val_kontrol_kn_zapobiznuk" type="0" offset="5" size="1">Jolobchatiy_val_kontrol_kn_zapobiznuk</Tag>
+<Tag variable="Vidsm_val_kn_zapobiznuk" type="0" offset="0" size="1">Vidsm_val_kn_zapobiznuk</Tag>
+<Tag variable="Vidsm_val_kontrol_avaria" type="0" offset="6" size="1">Vidsm_val_kontrol_avaria</Tag>
+<Tag variable="Vidsm_val_kontrol_poperedz_temperatura" type="0" offset="1" size="1">Vidsm_val_kontrol_poperedz_temperatura</Tag>
+<Tag variable="Vidsm_val_kontrol_vklushitu" type="0" offset="2" size="1">Vidsm_val_kontrol_vklushitu</Tag>
+<Tag variable="Vidsm_val_kontrol_blokuvanna" type="0" offset="4" size="1">Vidsm_val_kontrol_blokuvanna</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="I0.0:7" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 5</Name>
+<VariableList/>
+<TotalJobSize>19</TotalJobSize>
+<TagList>
+<Tag variable="Sitka_v_Rusi" type="0" offset="18" size="1">Sitka_v_Rusi</Tag>
+<Tag variable="Robota_3go_Presu" type="0" offset="6" size="1">Robota_3go_Presu</Tag>
+<Tag variable="Robota_3x_valiv" type="0" offset="0" size="1">Robota_3x_valiv</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="Q0.0:19" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 6</Name>
+<VariableList/>
+<TotalJobSize>9</TotalJobSize>
+<TagList>
+<Tag variable="Âêëþ÷èòè_3é_ïðåñ" type="0" offset="6" size="1">Âêëþ÷èòè_3é_ïðåñ</Tag>
+<Tag variable="Sitka_Guch_Zagalna_Gotovnist" type="0" offset="8" size="1">Sitka_Guch_Zagalna_Gotovnist</Tag>
+<Tag variable="Sitka_v_rusi" type="0" offset="0" size="1">Sitka_v_rusi</Tag>
+<Tag variable="Robota_3_valiv" type="0" offset="2" size="1">Robota_3_valiv</Tag>
+<Tag variable="Robote_3GO_Presu" type="0" offset="4" size="1">Robote_3GO_Presu</Tag>
+<Tag variable="Sitka_Gauch_Vkl" type="0" offset="7" size="1">Sitka_Gauch_Vkl</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="M20.0:9" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 7</Name>
+<VariableList/>
+<TotalJobSize>1</TotalJobSize>
+<TagList>
+<Tag variable="DOZVIL_MASH" type="0" offset="0" size="1">DOZVIL_MASH</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="M800.3" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 8</Name>
+<VariableList/>
+<TotalJobSize>89</TotalJobSize>
+<TagList>
+<Tag variable="EN_VIDSM_VAL" type="0" offset="32" size="1">EN_VIDSM_VAL</Tag>
+<Tag variable="EN_KERAM_1" type="0" offset="0" size="1">EN_KERAM_1</Tag>
+<Tag variable="EN_Jol_Val" type="0" offset="88" size="1">EN_Jol_Val</Tag>
+<Tag variable="EN_5_GROUP" type="0" offset="48" size="1">EN_5_GROUP</Tag>
+<Tag variable="EN_KALANDR" type="0" offset="16" size="1">EN_KALANDR</Tag>
+<Tag variable="EN_S_GR_7" type="0" offset="24" size="1">EN_S_GR_7</Tag>
+<Tag variable="EN_NK" type="0" offset="8" size="1">EN_NK</Tag>
+<Tag variable="EN_Kombi_Pres" type="0" offset="1" size="1">EN_Kombi_Pres</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="M999.0:89" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 9</Name>
+<VariableList/>
+<TotalJobSize>98</TotalJobSize>
+<TagList>
+<Tag variable="EN_SITKA_POV_VAL" type="0" offset="65" size="1">EN_SITKA_POV_VAL</Tag>
+<Tag variable="EN_PAP_VED_3" type="0" offset="16" size="1">EN_PAP_VED_3</Tag>
+<Tag variable="DOZVIL_SUHGR_2" type="0" offset="74" size="1">DOZVIL_SUHGR_2</Tag>
+<Tag variable="EN_SUHGR_1" type="0" offset="56" size="1">EN_SUHGR_1</Tag>
+<Tag variable="DOZVIL_SUHGR_3" type="0" offset="72" size="1">DOZVIL_SUHGR_3</Tag>
+<Tag variable="START_NE_PODV_VAL" type="0" offset="97" size="1">START_NE_PODV_VAL</Tag>
+<Tag variable="EN_SUHGR_2" type="0" offset="66" size="1">EN_SUHGR_2</Tag>
+<Tag variable="DOZVIL_SUHGR_4" type="0" offset="70" size="1">DOZVIL_SUHGR_4</Tag>
+<Tag variable="DOZVIL_BUM_NAPR_3" type="0" offset="86" size="1">DOZVIL_BUM_NAPR_3</Tag>
+<Tag variable="DOZVIL_BUM_NAPR_4" type="0" offset="89" size="1">DOZVIL_BUM_NAPR_4</Tag>
+<Tag variable="EN_SUHGR_3" type="0" offset="67" size="1">EN_SUHGR_3</Tag>
+<Tag variable="EN_GAUCH_VAL" type="0" offset="69" size="1">EN_GAUCH_VAL</Tag>
+<Tag variable="EN_SUHGR_4" type="0" offset="68" size="1">EN_SUHGR_4</Tag>
+<Tag variable="START_KLEIL_PRES_1" type="0" offset="82" size="1">START_KLEIL_PRES_1</Tag>
+<Tag variable="EN_6_GROUP" type="0" offset="64" size="1">EN_6_GROUP</Tag>
+<Tag variable="START_KLEIL_PRES_2" type="0" offset="85" size="1">START_KLEIL_PRES_2</Tag>
+<Tag variable="DOZVIL_SITKA_POV_VAL" type="0" offset="76" size="1">DOZVIL_SITKA_POV_VAL</Tag>
+<Tag variable="KERUV_NAPR_NE_PODV_VAL" type="0" offset="96" size="1">KERUV_NAPR_NE_PODV_VAL</Tag>
+<Tag variable="EN_ROZG_TAMBUR" type="0" offset="24" size="1">EN_ROZG_TAMBUR</Tag>
+<Tag variable="KERUV_NAPR_SUHGR_2" type="0" offset="75" size="1">KERUV_NAPR_SUHGR_2</Tag>
+<Tag variable="KERUV_NAPR_SUHGR_3" type="0" offset="73" size="1">KERUV_NAPR_SUHGR_3</Tag>
+<Tag variable="KERUV_NAPR_SITKA_POV_VAL" type="0" offset="77" size="1">KERUV_NAPR_SITKA_POV_VAL</Tag>
+<Tag variable="KERUV_NAPR_SUHGR_4" type="0" offset="71" size="1">KERUV_NAPR_SUHGR_4</Tag>
+<Tag variable="EN_PAPVED_1" type="0" offset="32" size="1">EN_PAPVED_1</Tag>
+<Tag variable="KERUV_NAPR_GAUCH_VAL" type="0" offset="79" size="1">KERUV_NAPR_GAUCH_VAL</Tag>
+<Tag variable="DOZVIL_GAUCH_VAL" type="0" offset="78" size="1">DOZVIL_GAUCH_VAL</Tag>
+<Tag variable="DOZVIL_PODV_VAL" type="0" offset="92" size="1">DOZVIL_PODV_VAL</Tag>
+<Tag variable="EN_KERAM_VAL2" type="0" offset="40" size="1">EN_KERAM_VAL2</Tag>
+<Tag variable="KERUV_NAPR_KLEIL_PRES_1" type="0" offset="81" size="1">KERUV_NAPR_KLEIL_PRES_1</Tag>
+<Tag variable="KERUV_NAPR_KLEIL_PRES_2" type="0" offset="84" size="1">KERUV_NAPR_KLEIL_PRES_2</Tag>
+<Tag variable="START_PODV_VAL" type="0" offset="94" size="1">START_PODV_VAL</Tag>
+<Tag variable="DOZVIL_KLEIL_PRES_1" type="0" offset="80" size="1">DOZVIL_KLEIL_PRES_1</Tag>
+<Tag variable="EN_VAL_GP" type="0" offset="48" size="1">EN_VAL_GP</Tag>
+<Tag variable="DOZVIL_KLEIL_PRES_2" type="0" offset="83" size="1">DOZVIL_KLEIL_PRES_2</Tag>
+<Tag variable="KERUV_NAPR_PODV_VAL" type="0" offset="93" size="1">KERUV_NAPR_PODV_VAL</Tag>
+<Tag variable="KERUV_NAPR_BUM_NAPR_3" type="0" offset="87" size="1">KERUV_NAPR_BUM_NAPR_3</Tag>
+<Tag variable="Emergency_Stop" type="0" offset="0" size="1">Emergency_Stop</Tag>
+<Tag variable="KERUV_NAPR_BUM_NAPR_4" type="0" offset="90" size="1">KERUV_NAPR_BUM_NAPR_4</Tag>
+<Tag variable="START_BUM_NAPR_3" type="0" offset="88" size="1">START_BUM_NAPR_3</Tag>
+<Tag variable="DOZVIL_NE_PODV_VAL" type="0" offset="95" size="1">DOZVIL_NE_PODV_VAL</Tag>
+<Tag variable="START_BUM_NAPR_4" type="0" offset="91" size="1">START_BUM_NAPR_4</Tag>
+<Tag variable="EN_Paper_2" type="0" offset="8" size="1">EN_Paper_2</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="M1021.0:98" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 10</Name>
+<VariableList/>
+<TotalJobSize>1</TotalJobSize>
+<TagList>
+<Tag variable="Stop_tr_RS485" type="0" offset="0" size="1">Stop_tr_RS485</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="M1500.4" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 11</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Keram_val1_svidkist_prv" type="4" offset="0" size="2">Keram_val1_svidkist_prv</Tag>
+<Tag variable="Keram_val1_Napruga_Zbudj" type="4" offset="10" size="2">Keram_val1_Napruga_Zbudj</Tag>
+<Tag variable="Keram_val1_krut_moment" type="4" offset="2" size="2">Keram_val1_krut_moment</Tag>
+<Tag variable="Keram_val1_Tok_Zbudj" type="4" offset="8" size="2">Keram_val1_Tok_Zbudj</Tag>
+<Tag variable="Keram_val1_Napruga" type="4" offset="6" size="2">Keram_val1_Napruga</Tag>
+<Tag variable="Keram_val1_Strum" type="4" offset="4" size="2">Keram_val1_Strum</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4000:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 12</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Keram_val2_svidkist_prv" type="4" offset="0" size="2">Keram_val2_svidkist_prv</Tag>
+<Tag variable="Keram_val2_Tok_Zbudj" type="4" offset="8" size="2">Keram_val2_Tok_Zbudj</Tag>
+<Tag variable="Keram_val2_krut_moment" type="4" offset="2" size="2">Keram_val2_krut_moment</Tag>
+<Tag variable="Keram_val2_Napruga" type="4" offset="6" size="2">Keram_val2_Napruga</Tag>
+<Tag variable="Keram_val2_Napruga_Zbudj" type="4" offset="10" size="2">Keram_val2_Napruga_Zbudj</Tag>
+<Tag variable="Keram_val2_Strum" type="4" offset="4" size="2">Keram_val2_Strum</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4020:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 13</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Val_z_gluh_perf_Napruga" type="4" offset="6" size="2">Val_z_gluh_perf_Napruga</Tag>
+<Tag variable="Val_z_gluh_perf_Napruga_Zbudj" type="4" offset="10" size="2">Val_z_gluh_perf_Napruga_Zbudj</Tag>
+<Tag variable="Val_z_gluh_perf_Tok_Zbudj" type="4" offset="8" size="2">Val_z_gluh_perf_Tok_Zbudj</Tag>
+<Tag variable="Val_z_gluh_perf_Strum" type="4" offset="4" size="2">Val_z_gluh_perf_Strum</Tag>
+<Tag variable="TR_Krut_moment_prv" type="4" offset="2" size="2">TR_Krut_moment_prv</Tag>
+<Tag variable="TR_Svidc_prv" type="4" offset="0" size="2">TR_Svidc_prv</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4040:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 14</Name>
+<VariableList/>
+<TotalJobSize>4</TotalJobSize>
+<TagList>
+<Tag variable="Val_z_gluh_perf_svidkist_prv" type="4" offset="0" size="2">Val_z_gluh_perf_svidkist_prv</Tag>
+<Tag variable="Val_z_gluh_perf_krut_moment" type="4" offset="2" size="2">Val_z_gluh_perf_krut_moment</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4040:2" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 15</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Suska1_Napruga" type="4" offset="6" size="2">Suska1_Napruga</Tag>
+<Tag variable="Suska1_svidkist_prv" type="4" offset="0" size="2">Suska1_svidkist_prv</Tag>
+<Tag variable="Suska1_Napruga_Zbudj" type="4" offset="10" size="2">Suska1_Napruga_Zbudj</Tag>
+<Tag variable="Suska1_Tok_Zbudj" type="4" offset="8" size="2">Suska1_Tok_Zbudj</Tag>
+<Tag variable="Suska1_Strum" type="4" offset="4" size="2">Suska1_Strum</Tag>
+<Tag variable="Suska1_krut_moment" type="4" offset="2" size="2">Suska1_krut_moment</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4060:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 16</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Suska2_Tok_Zbudj" type="4" offset="8" size="2">Suska2_Tok_Zbudj</Tag>
+<Tag variable="Suska2_svidkist_prv" type="4" offset="0" size="2">Suska2_svidkist_prv</Tag>
+<Tag variable="Suska2_krut_moment" type="4" offset="2" size="2">Suska2_krut_moment</Tag>
+<Tag variable="Suska2_Napruga_Zbudj" type="4" offset="10" size="2">Suska2_Napruga_Zbudj</Tag>
+<Tag variable="Suska2_Napruga" type="4" offset="6" size="2">Suska2_Napruga</Tag>
+<Tag variable="Suska2_Strum" type="4" offset="4" size="2">Suska2_Strum</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4080:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 17</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Suska6_Napruga" type="4" offset="6" size="2">Suska6_Napruga</Tag>
+<Tag variable="Suska6_Strum" type="4" offset="4" size="2">Suska6_Strum</Tag>
+<Tag variable="Suska6_svidkist_prv" type="4" offset="0" size="2">Suska6_svidkist_prv</Tag>
+<Tag variable="Suska6_krut_moment" type="4" offset="2" size="2">Suska6_krut_moment</Tag>
+<Tag variable="Suska6_Tok_Zbudj" type="4" offset="8" size="2">Suska6_Tok_Zbudj</Tag>
+<Tag variable="Suska6_Napruga_Zbudj" type="4" offset="10" size="2">Suska6_Napruga_Zbudj</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4100:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 18</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Suska7_Strum" type="4" offset="4" size="2">Suska7_Strum</Tag>
+<Tag variable="Suska7_Napruga_Zbudj" type="4" offset="10" size="2">Suska7_Napruga_Zbudj</Tag>
+<Tag variable="Suska7_svidkist_prv" type="4" offset="0" size="2">Suska7_svidkist_prv</Tag>
+<Tag variable="Suska7_Tok_Zbudj" type="4" offset="8" size="2">Suska7_Tok_Zbudj</Tag>
+<Tag variable="Suska7_Napruga" type="4" offset="6" size="2">Suska7_Napruga</Tag>
+<Tag variable="Suska7_krut_moment" type="4" offset="2" size="2">Suska7_krut_moment</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4120:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 19</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Kalandr_Napruga" type="4" offset="6" size="2">Kalandr_Napruga</Tag>
+<Tag variable="Kalandr_Napruga_Zbudj" type="4" offset="10" size="2">Kalandr_Napruga_Zbudj</Tag>
+<Tag variable="Kalandr_svidkist_prv" type="4" offset="0" size="2">Kalandr_svidkist_prv</Tag>
+<Tag variable="Kalandr_krut_moment" type="4" offset="2" size="2">Kalandr_krut_moment</Tag>
+<Tag variable="Kalandr_Tok_Zbudj" type="4" offset="8" size="2">Kalandr_Tok_Zbudj</Tag>
+<Tag variable="Kalandr_Strum" type="4" offset="4" size="2">Kalandr_Strum</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4140:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 20</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Nakat_Tok_Zbudj" type="4" offset="8" size="2">Nakat_Tok_Zbudj</Tag>
+<Tag variable="Nakat_svidkist_prv" type="4" offset="0" size="2">Nakat_svidkist_prv</Tag>
+<Tag variable="Nakat_Strum" type="4" offset="4" size="2">Nakat_Strum</Tag>
+<Tag variable="Nakat_Napruga" type="4" offset="6" size="2">Nakat_Napruga</Tag>
+<Tag variable="Nakat_Napruga_Zbudj" type="4" offset="10" size="2">Nakat_Napruga_Zbudj</Tag>
+<Tag variable="Nakat_krut_moment" type="4" offset="2" size="2">Nakat_krut_moment</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4160:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 21</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Vidsm_val_Napruga" type="4" offset="6" size="2">Vidsm_val_Napruga</Tag>
+<Tag variable="Vidsm_val_krut_moment" type="4" offset="2" size="2">Vidsm_val_krut_moment</Tag>
+<Tag variable="Vidsm_val_Tok_Zbudj" type="4" offset="8" size="2">Vidsm_val_Tok_Zbudj</Tag>
+<Tag variable="Vidsm_val_Strum" type="4" offset="4" size="2">Vidsm_val_Strum</Tag>
+<Tag variable="Vidsm_val_svidkist_prv" type="4" offset="0" size="2">Vidsm_val_svidkist_prv</Tag>
+<Tag variable="Vidsm_val_Napruga_Zbudj" type="4" offset="10" size="2">Vidsm_val_Napruga_Zbudj</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4180:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 22</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Suska5_Strum" type="4" offset="4" size="2">Suska5_Strum</Tag>
+<Tag variable="Suska5_Tok_Zbudj" type="4" offset="8" size="2">Suska5_Tok_Zbudj</Tag>
+<Tag variable="Suska5_Napruga" type="4" offset="6" size="2">Suska5_Napruga</Tag>
+<Tag variable="Suska5_krut_moment" type="4" offset="2" size="2">Suska5_krut_moment</Tag>
+<Tag variable="Suska5_Napruga_Zbudj" type="4" offset="10" size="2">Suska5_Napruga_Zbudj</Tag>
+<Tag variable="Suska5_svidkist_prv" type="4" offset="0" size="2">Suska5_svidkist_prv</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4200:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 23</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Rozg_tambur_Napruga" type="4" offset="6" size="2">Rozg_tambur_Napruga</Tag>
+<Tag variable="Rozg_tambur_Napruga_Zbudj" type="4" offset="10" size="2">Rozg_tambur_Napruga_Zbudj</Tag>
+<Tag variable="Rozg_tambur_Tok_Zbudj" type="4" offset="8" size="2">Rozg_tambur_Tok_Zbudj</Tag>
+<Tag variable="Rozg_tambur_svidkist_prv" type="4" offset="0" size="2">Rozg_tambur_svidkist_prv</Tag>
+<Tag variable="Rozg_tambur_krut_moment" type="4" offset="2" size="2">Rozg_tambur_krut_moment</Tag>
+<Tag variable="Rozg_tambur_Strum" type="4" offset="4" size="2">Rozg_tambur_Strum</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4220:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 24</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Paper_ved_1_Tok_Zbudj" type="4" offset="8" size="2">Paper_ved_1_Tok_Zbudj</Tag>
+<Tag variable="Paper_ved_1_Napruga_Zbudj" type="4" offset="10" size="2">Paper_ved_1_Napruga_Zbudj</Tag>
+<Tag variable="Paper_ved_1_krut_moment" type="4" offset="2" size="2">Paper_ved_1_krut_moment</Tag>
+<Tag variable="Paper_ved_1_Strum" type="4" offset="4" size="2">Paper_ved_1_Strum</Tag>
+<Tag variable="Paper_ved_1_Napruga" type="4" offset="6" size="2">Paper_ved_1_Napruga</Tag>
+<Tag variable="Paper_ved_1_svidkist_prv" type="4" offset="0" size="2">Paper_ved_1_svidkist_prv</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4240:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 25</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Paper_ved_2_Napruga" type="4" offset="6" size="2">Paper_ved_2_Napruga</Tag>
+<Tag variable="Paper_ved_2_Strum" type="4" offset="4" size="2">Paper_ved_2_Strum</Tag>
+<Tag variable="Paper_ved_2_krut_moment" type="4" offset="2" size="2">Paper_ved_2_krut_moment</Tag>
+<Tag variable="Paper_ved_2_Napruga_Zbudj" type="4" offset="10" size="2">Paper_ved_2_Napruga_Zbudj</Tag>
+<Tag variable="Paper_ved_2_Tok_Zbudj" type="4" offset="8" size="2">Paper_ved_2_Tok_Zbudj</Tag>
+<Tag variable="Paper_ved_2_svidkist_prv" type="4" offset="0" size="2">Paper_ved_2_svidkist_prv</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4260:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 26</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Paper_ved_3_krut_moment" type="4" offset="2" size="2">Paper_ved_3_krut_moment</Tag>
+<Tag variable="Paper_ved_3_svidkist_prv" type="4" offset="0" size="2">Paper_ved_3_svidkist_prv</Tag>
+<Tag variable="Paper_ved_3_Napruga_Zbudj" type="4" offset="10" size="2">Paper_ved_3_Napruga_Zbudj</Tag>
+<Tag variable="Paper_ved_3_Napruga" type="4" offset="6" size="2">Paper_ved_3_Napruga</Tag>
+<Tag variable="Paper_ved_3_Tok_Zbudj" type="4" offset="8" size="2">Paper_ved_3_Tok_Zbudj</Tag>
+<Tag variable="Paper_ved_3_Strum" type="4" offset="4" size="2">Paper_ved_3_Strum</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4280:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 27</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Paper_napr_1_Strum" type="4" offset="4" size="2">Paper_napr_1_Strum</Tag>
+<Tag variable="Paper_napr_1_krut_moment" type="4" offset="2" size="2">Paper_napr_1_krut_moment</Tag>
+<Tag variable="Paper_napr_1_svidkist_prv" type="4" offset="0" size="2">Paper_napr_1_svidkist_prv</Tag>
+<Tag variable="Paper_napr_1_Napruga_Zbudj" type="4" offset="10" size="2">Paper_napr_1_Napruga_Zbudj</Tag>
+<Tag variable="Paper_napr_1_Tok_Zbudj" type="4" offset="8" size="2">Paper_napr_1_Tok_Zbudj</Tag>
+<Tag variable="Paper_napr_1_Napruga" type="4" offset="6" size="2">Paper_napr_1_Napruga</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4300:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 28</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Paper_napr_2_Napruga_Zbudj" type="4" offset="10" size="2">Paper_napr_2_Napruga_Zbudj</Tag>
+<Tag variable="Paper_napr_2_Strum" type="4" offset="4" size="2">Paper_napr_2_Strum</Tag>
+<Tag variable="Paper_napr_2_Tok_Zbudj" type="4" offset="8" size="2">Paper_napr_2_Tok_Zbudj</Tag>
+<Tag variable="Paper_napr_2_svidkist_prv" type="4" offset="0" size="2">Paper_napr_2_svidkist_prv</Tag>
+<Tag variable="Paper_napr_2_krut_moment" type="4" offset="2" size="2">Paper_napr_2_krut_moment</Tag>
+<Tag variable="Paper_napr_2_Napruga" type="4" offset="6" size="2">Paper_napr_2_Napruga</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4320:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 29</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Paper_napr_3_Tok_Zbudj" type="4" offset="8" size="2">Paper_napr_3_Tok_Zbudj</Tag>
+<Tag variable="Paper_napr_3_Strum" type="4" offset="4" size="2">Paper_napr_3_Strum</Tag>
+<Tag variable="Paper_napr_3_Napruga_Zbudj" type="4" offset="10" size="2">Paper_napr_3_Napruga_Zbudj</Tag>
+<Tag variable="Paper_napr_3_Napruga" type="4" offset="6" size="2">Paper_napr_3_Napruga</Tag>
+<Tag variable="Paper_napr_3_svidkist_prv" type="4" offset="0" size="2">Paper_napr_3_svidkist_prv</Tag>
+<Tag variable="Paper_napr_3_krut_moment" type="4" offset="2" size="2">Paper_napr_3_krut_moment</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4340:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 30</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Paper_napr_4_Napruga_Zbudj" type="4" offset="10" size="2">Paper_napr_4_Napruga_Zbudj</Tag>
+<Tag variable="Paper_napr_4_krut_moment" type="4" offset="2" size="2">Paper_napr_4_krut_moment</Tag>
+<Tag variable="Paper_napr_4_Napruga" type="4" offset="6" size="2">Paper_napr_4_Napruga</Tag>
+<Tag variable="Paper_napr_4_Strum" type="4" offset="4" size="2">Paper_napr_4_Strum</Tag>
+<Tag variable="Paper_napr_4_svidkist_prv" type="4" offset="0" size="2">Paper_napr_4_svidkist_prv</Tag>
+<Tag variable="Paper_napr_4_Tok_Zbudj" type="4" offset="8" size="2">Paper_napr_4_Tok_Zbudj</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4360:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 31</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Podvizniy_val_Napruga_Zbudj" type="4" offset="10" size="2">Podvizniy_val_Napruga_Zbudj</Tag>
+<Tag variable="Podvizniy_val_1_Strum" type="4" offset="4" size="2">Podvizniy_val_1_Strum</Tag>
+<Tag variable="Podvizniy_val_krut_moment" type="4" offset="2" size="2">Podvizniy_val_krut_moment</Tag>
+<Tag variable="Podvizniy_val_Napruga" type="4" offset="6" size="2">Podvizniy_val_Napruga</Tag>
+<Tag variable="Podvizniy_val_svidkist_prv" type="4" offset="0" size="2">Podvizniy_val_svidkist_prv</Tag>
+<Tag variable="Podvizniy_val_Tok_Zbudj" type="4" offset="8" size="2">Podvizniy_val_Tok_Zbudj</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4380:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 32</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="NE_Podvizniy_val_Tok_Zbudj" type="4" offset="8" size="2">NE_Podvizniy_val_Tok_Zbudj</Tag>
+<Tag variable="NE_Podvizniy_val_Napruga_Zbudj" type="4" offset="10" size="2">NE_Podvizniy_val_Napruga_Zbudj</Tag>
+<Tag variable="NE_Podvizniy_val_svidkist_prv" type="4" offset="0" size="2">NE_Podvizniy_val_svidkist_prv</Tag>
+<Tag variable="NE_Podvizniy_val_1_Strum" type="4" offset="4" size="2">NE_Podvizniy_val_1_Strum</Tag>
+<Tag variable="NE_Podvizniy_val_Napruga" type="4" offset="6" size="2">NE_Podvizniy_val_Napruga</Tag>
+<Tag variable="NE_Podvizniy_val_krut_moment" type="4" offset="2" size="2">NE_Podvizniy_val_krut_moment</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4400:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 33</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Jolobchati_val_svidkist_prv" type="4" offset="0" size="2">Jolobchati_val_svidkist_prv</Tag>
+<Tag variable="Jolobchati_val_Tok_Zbudj" type="4" offset="8" size="2">Jolobchati_val_Tok_Zbudj</Tag>
+<Tag variable="Jolobchati_val_Napruga_Zbudj" type="4" offset="10" size="2">Jolobchati_val_Napruga_Zbudj</Tag>
+<Tag variable="Jolobchati_val_Strum" type="4" offset="4" size="2">Jolobchati_val_Strum</Tag>
+<Tag variable="Jolobchati_val_krut_moment" type="4" offset="2" size="2">Jolobchati_val_krut_moment</Tag>
+<Tag variable="Jolobchati_val_Napruga" type="4" offset="6" size="2">Jolobchati_val_Napruga</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MW4420:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 34</Name>
+<VariableList/>
+<TotalJobSize>60</TotalJobSize>
+<TagList>
+<Tag variable="MD440" type="6" offset="40" size="4">MD440</Tag>
+<Tag variable="MD452" type="6" offset="52" size="4">MD452</Tag>
+<Tag variable="MD430" type="6" offset="32" size="4">MD430</Tag>
+<Tag variable="MD431" type="6" offset="36" size="4">MD431</Tag>
+<Tag variable="MD410" type="5" offset="12" size="4">MD410</Tag>
+<Tag variable="MD444" type="6" offset="44" size="4">MD444</Tag>
+<Tag variable="MD400" type="6" offset="0" size="4">MD400</Tag>
+<Tag variable="MD456" type="6" offset="56" size="4">MD456</Tag>
+<Tag variable="MD412" type="6" offset="16" size="4">MD412</Tag>
+<Tag variable="MD424" type="6" offset="24" size="4">MD424</Tag>
+<Tag variable="MD414" type="6" offset="20" size="4">MD414</Tag>
+<Tag variable="MD448" type="6" offset="48" size="4">MD448</Tag>
+<Tag variable="MD404_KALANDR" type="6" offset="4" size="4">MD404_KALANDR</Tag>
+<Tag variable="MD428" type="6" offset="28" size="4">MD428</Tag>
+<Tag variable="MD408_FR_NK" type="6" offset="8" size="4">MD408_FR_NK</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MD400:15" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 35</Name>
+<VariableList/>
+<TotalJobSize>212</TotalJobSize>
+<TagList>
+<Tag variable="KALANDR_D_vala" type="6" offset="176" size="4">KALANDR_D_vala</Tag>
+<Tag variable="SUS_GR5_D_vala" type="6" offset="104" size="4">SUS_GR5_D_vala</Tag>
+<Tag variable="SUS_GR6_KOEF_VIDHILU" type="6" offset="124" size="4">SUS_GR6_KOEF_VIDHILU</Tag>
+<Tag variable="KALANDR_NOMIN_OBERT" type="6" offset="192" size="4">KALANDR_NOMIN_OBERT</Tag>
+<Tag variable="SUS_GR6_N_0" type="5" offset="140" size="4">SUS_GR6_N_0</Tag>
+<Tag variable="KALANDR_KOEF_VIDHILU" type="6" offset="172" size="4">KALANDR_KOEF_VIDHILU</Tag>
+<Tag variable="VAL_GL_PERF_N_N0MIN" type="6" offset="64" size="4">VAL_GL_PERF_N_N0MIN</Tag>
+<Tag variable="VAL_GL_PERF_KOEF_VIDHILU" type="6" offset="52" size="4">VAL_GL_PERF_KOEF_VIDHILU</Tag>
+<Tag variable="NAKAT_KOEF_REDUC" type="6" offset="204" size="4">NAKAT_KOEF_REDUC</Tag>
+<Tag variable="SUS_GR5_N_0" type="5" offset="116" size="4">SUS_GR5_N_0</Tag>
+<Tag variable="VAL_GL_PERF_NOMIN_OBERT" type="6" offset="72" size="4">VAL_GL_PERF_NOMIN_OBERT</Tag>
+<Tag variable="SUS_GR1_D_vala" type="6" offset="80" size="4">SUS_GR1_D_vala</Tag>
+<Tag variable="SUS_GR7_N_N0MIN" type="6" offset="160" size="4">SUS_GR7_N_N0MIN</Tag>
+<Tag variable="VAL_GL_PERF_KOEF_REDUC" type="6" offset="60" size="4">VAL_GL_PERF_KOEF_REDUC</Tag>
+<Tag variable="KERVAL2_NOMIN_OBERT" type="6" offset="48" size="4">KERVAL2_NOMIN_OBERT</Tag>
+<Tag variable="SUS_GR5_KOEF_REDUC" type="6" offset="108" size="4">SUS_GR5_KOEF_REDUC</Tag>
+<Tag variable="SUS_GR5_KOEF_VIDHILU" type="6" offset="100" size="4">SUS_GR5_KOEF_VIDHILU</Tag>
+<Tag variable="SUS_GR7_D_vala" type="6" offset="152" size="4">SUS_GR7_D_vala</Tag>
+<Tag variable="SUS_GR1_KOEF_REDUC" type="6" offset="84" size="4">SUS_GR1_KOEF_REDUC</Tag>
+<Tag variable="SUS_GR6_NOMIN_OBERT" type="6" offset="144" size="4">SUS_GR6_NOMIN_OBERT</Tag>
+<Tag variable="KERVAL2_D_vala" type="6" offset="32" size="4">KERVAL2_D_vala</Tag>
+<Tag variable="NAKAT_KOEF_VIDHILU" type="6" offset="196" size="4">NAKAT_KOEF_VIDHILU</Tag>
+<Tag variable="SUS_GR5_N_N0MIN" type="6" offset="112" size="4">SUS_GR5_N_N0MIN</Tag>
+<Tag variable="SUS_GR6_N_N0MIN" type="6" offset="136" size="4">SUS_GR6_N_N0MIN</Tag>
+<Tag variable="SUS_GR6_KOEF_REDUC" type="6" offset="132" size="4">SUS_GR6_KOEF_REDUC</Tag>
+<Tag variable="KERVAL2_KOEF_VIDHILU" type="6" offset="28" size="4">KERVAL2_KOEF_VIDHILU</Tag>
+<Tag variable="KERVAL2_N_0" type="5" offset="44" size="4">KERVAL2_N_0</Tag>
+<Tag variable="SUS_GR1_KOEF_VIDHILU" type="6" offset="76" size="4">SUS_GR1_KOEF_VIDHILU</Tag>
+<Tag variable="SUS_GR1_NOMIN_OBERT" type="6" offset="96" size="4">SUS_GR1_NOMIN_OBERT</Tag>
+<Tag variable="S_MASH" type="6" offset="0" size="4">S_MASH</Tag>
+<Tag variable="SUS_GR6_D_vala" type="6" offset="128" size="4">SUS_GR6_D_vala</Tag>
+<Tag variable="KERVAL1_KOEF_REDUC" type="6" offset="12" size="4">KERVAL1_KOEF_REDUC</Tag>
+<Tag variable="SUS_GR1_N_0" type="5" offset="92" size="4">SUS_GR1_N_0</Tag>
+<Tag variable="KERVAL2_N_N0MIN" type="6" offset="40" size="4">KERVAL2_N_N0MIN</Tag>
+<Tag variable="KERVAL1_D_vala" type="6" offset="8" size="4">KERVAL1_D_vala</Tag>
+<Tag variable="KERVAL1_N_0" type="5" offset="20" size="4">KERVAL1_N_0</Tag>
+<Tag variable="KALANDR_KOEF_REDUC" type="6" offset="180" size="4">KALANDR_KOEF_REDUC</Tag>
+<Tag variable="KALANDR_N_0" type="5" offset="188" size="4">KALANDR_N_0</Tag>
+<Tag variable="VAL_GL_PERF_D_vala" type="6" offset="56" size="4">VAL_GL_PERF_D_vala</Tag>
+<Tag variable="KALANDR_N_N0MIN" type="6" offset="184" size="4">KALANDR_N_N0MIN</Tag>
+<Tag variable="KERVAL1_NOMIN_OBERT" type="6" offset="24" size="4">KERVAL1_NOMIN_OBERT</Tag>
+<Tag variable="SUS_GR7_NOMIN_OBERT" type="6" offset="168" size="4">SUS_GR7_NOMIN_OBERT</Tag>
+<Tag variable="SUS_GR7_KOEF_VIDHILU" type="6" offset="148" size="4">SUS_GR7_KOEF_VIDHILU</Tag>
+<Tag variable="SUS_GR1N_N0MIN" type="6" offset="88" size="4">SUS_GR1N_N0MIN</Tag>
+<Tag variable="KERVAL2_KOEF_REDUC" type="6" offset="36" size="4">KERVAL2_KOEF_REDUC</Tag>
+<Tag variable="NAKAT_D_vala" type="6" offset="200" size="4">NAKAT_D_vala</Tag>
+<Tag variable="SUS_GR7_N_0" type="5" offset="164" size="4">SUS_GR7_N_0</Tag>
+<Tag variable="SUS_GR5_NOMIN_OBERT" type="6" offset="120" size="4">SUS_GR5_NOMIN_OBERT</Tag>
+<Tag variable="KERVAL1_KOEF_VIDHILU" type="6" offset="4" size="4">KERVAL1_KOEF_VIDHILU</Tag>
+<Tag variable="SUS_GR7_KOEF_REDUC" type="6" offset="156" size="4">SUS_GR7_KOEF_REDUC</Tag>
+<Tag variable="KERVAL1_N_N0MIN" type="6" offset="16" size="4">KERVAL1_N_N0MIN</Tag>
+<Tag variable="NAKAT_N_N0MIN" type="6" offset="208" size="4">NAKAT_N_N0MIN</Tag>
+<Tag variable="VAL_GL_PERF_N_0" type="5" offset="68" size="4">VAL_GL_PERF_N_0</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MD2000:53" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 36</Name>
+<VariableList/>
+<TotalJobSize>212</TotalJobSize>
+<TagList>
+<Tag variable="PAPER_VED_2_KOEF_VIDHILU" type="6" offset="80" size="4">PAPER_VED_2_KOEF_VIDHILU</Tag>
+<Tag variable="VIDSM_VAL_N_N0MIN" type="6" offset="20" size="4">VIDSM_VAL_N_N0MIN</Tag>
+<Tag variable="ROZG_TAMBUR_N_N0MIN" type="6" offset="140" size="4">ROZG_TAMBUR_N_N0MIN</Tag>
+<Tag variable="PAPER_VED_2_D_vala" type="6" offset="84" size="4">PAPER_VED_2_D_vala</Tag>
+<Tag variable="VIDSM_VAL_N_0" type="5" offset="24" size="4">VIDSM_VAL_N_0</Tag>
+<Tag variable="SITKA_POV_VAL_KOEF_REDUC" type="6" offset="184" size="4">SITKA_POV_VAL_KOEF_REDUC</Tag>
+<Tag variable="SITKA_POV_VAL_KOEF_VIDHILU" type="6" offset="176" size="4">SITKA_POV_VAL_KOEF_VIDHILU</Tag>
+<Tag variable="GAUCH_VAL_NOMIN_OBERT" type="6" offset="172" size="4">GAUCH_VAL_NOMIN_OBERT</Tag>
+<Tag variable="PAPER_VED_3_N_0" type="5" offset="120" size="4">PAPER_VED_3_N_0</Tag>
+<Tag variable="ROZG_TAMBUR_NOMIN_OBERT" type="6" offset="148" size="4">ROZG_TAMBUR_NOMIN_OBERT</Tag>
+<Tag variable="SUS_GR2_KOEF_VIDHILU" type="6" offset="200" size="4">SUS_GR2_KOEF_VIDHILU</Tag>
+<Tag variable="VIDSM_VAL_D_vala" type="6" offset="12" size="4">VIDSM_VAL_D_vala</Tag>
+<Tag variable="PAPER_VED_2_NOMIN_OBERT" type="6" offset="100" size="4">PAPER_VED_2_NOMIN_OBERT</Tag>
+<Tag variable="SITKA_POV_VAL_D_vala" type="6" offset="180" size="4">SITKA_POV_VAL_D_vala</Tag>
+<Tag variable="VIDSM_VAL_KOEF_VIDHILU" type="6" offset="8" size="4">VIDSM_VAL_KOEF_VIDHILU</Tag>
+<Tag variable="PAPER_VED_2_N_0" type="5" offset="96" size="4">PAPER_VED_2_N_0</Tag>
+<Tag variable="JOLOB_VAL_NOMIN_OBERT" type="6" offset="52" size="4">JOLOB_VAL_NOMIN_OBERT</Tag>
+<Tag variable="SITKA_POV_VAL_N0MIN" type="6" offset="188" size="4">SITKA_POV_VAL_N0MIN</Tag>
+<Tag variable="NAKAT_NOMIN_OBERT" type="6" offset="4" size="4">NAKAT_NOMIN_OBERT</Tag>
+<Tag variable="SITKA_POV_VAL_NOMIN_OBERT" type="6" offset="196" size="4">SITKA_POV_VAL_NOMIN_OBERT</Tag>
+<Tag variable="PAPER_VED_1_KOEF_VIDHILU" type="6" offset="56" size="4">PAPER_VED_1_KOEF_VIDHILU</Tag>
+<Tag variable="SITKA_POV_VAL_N_0" type="6" offset="192" size="4">SITKA_POV_VAL_N_0</Tag>
+<Tag variable="GAUCH_VAL_D_vala" type="6" offset="156" size="4">GAUCH_VAL_D_vala</Tag>
+<Tag variable="NAKAT_N_0" type="5" offset="0" size="4">NAKAT_N_0</Tag>
+<Tag variable="PAPER_VED_1_N_0" type="5" offset="72" size="4">PAPER_VED_1_N_0</Tag>
+<Tag variable="JOLOB_VAL_N_N0MIN" type="6" offset="44" size="4">JOLOB_VAL_N_N0MIN</Tag>
+<Tag variable="GAUCH_VAL_N_0" type="6" offset="168" size="4">GAUCH_VAL_N_0</Tag>
+<Tag variable="PAPER_VED_1_KOEF_REDUC" type="6" offset="64" size="4">PAPER_VED_1_KOEF_REDUC</Tag>
+<Tag variable="VIDSM_VAL_KOEF_REDUC" type="6" offset="16" size="4">VIDSM_VAL_KOEF_REDUC</Tag>
+<Tag variable="JOLOB_VAL_KOEF_REDUC" type="6" offset="40" size="4">JOLOB_VAL_KOEF_REDUC</Tag>
+<Tag variable="PAPER_VED_1_D_vala" type="6" offset="60" size="4">PAPER_VED_1_D_vala</Tag>
+<Tag variable="JOLOB_VAL_KOEF_VIDHILU" type="6" offset="32" size="4">JOLOB_VAL_KOEF_VIDHILU</Tag>
+<Tag variable="GAUCH_VAL_N0MIN" type="6" offset="164" size="4">GAUCH_VAL_N0MIN</Tag>
+<Tag variable="PAPER_VED_3_KOEF_VIDHILU" type="6" offset="104" size="4">PAPER_VED_3_KOEF_VIDHILU</Tag>
+<Tag variable="ROZG_TAMBUR_N_0" type="5" offset="144" size="4">ROZG_TAMBUR_N_0</Tag>
+<Tag variable="JOLOB_VAL_D_vala" type="6" offset="36" size="4">JOLOB_VAL_D_vala</Tag>
+<Tag variable="ROZG_TAMBUR_D_vala" type="6" offset="132" size="4">ROZG_TAMBUR_D_vala</Tag>
+<Tag variable="VIDSM_VAL_NOMIN_OBERT" type="6" offset="28" size="4">VIDSM_VAL_NOMIN_OBERT</Tag>
+<Tag variable="PAPER_VED_3_NOMIN_OBERT" type="6" offset="124" size="4">PAPER_VED_3_NOMIN_OBERT</Tag>
+<Tag variable="ROZG_TAMBUR_KOEF_REDUC" type="6" offset="136" size="4">ROZG_TAMBUR_KOEF_REDUC</Tag>
+<Tag variable="PAPER_VED_1_NOMIN_OBERT" type="6" offset="76" size="4">PAPER_VED_1_NOMIN_OBERT</Tag>
+<Tag variable="SUS_GR2_KOEF_REDUC" type="6" offset="208" size="4">SUS_GR2_KOEF_REDUC</Tag>
+<Tag variable="ROZG_TAMBUR_KOEF_VIDHILU" type="6" offset="128" size="4">ROZG_TAMBUR_KOEF_VIDHILU</Tag>
+<Tag variable="PAPER_VED_3_N_N0MIN" type="6" offset="116" size="4">PAPER_VED_3_N_N0MIN</Tag>
+<Tag variable="PAPER_VED_2_KOEF_REDUC" type="6" offset="88" size="4">PAPER_VED_2_KOEF_REDUC</Tag>
+<Tag variable="PAPER_VED_2_N_N0MIN" type="6" offset="92" size="4">PAPER_VED_2_N_N0MIN</Tag>
+<Tag variable="PAPER_VED_3_D_vala" type="6" offset="108" size="4">PAPER_VED_3_D_vala</Tag>
+<Tag variable="GAUCH_VAL_KOEF_REDUC" type="6" offset="160" size="4">GAUCH_VAL_KOEF_REDUC</Tag>
+<Tag variable="JOLOB_VAL_N_0" type="5" offset="48" size="4">JOLOB_VAL_N_0</Tag>
+<Tag variable="SUS_GR2_D_vala" type="6" offset="204" size="4">SUS_GR2_D_vala</Tag>
+<Tag variable="PAPER_VED_3_KOEF_REDUC" type="6" offset="112" size="4">PAPER_VED_3_KOEF_REDUC</Tag>
+<Tag variable="GAUCH_VAL_KOEF_VIDHILU" type="6" offset="152" size="4">GAUCH_VAL_KOEF_VIDHILU</Tag>
+<Tag variable="PAPER_VED_1_N_N0MIN" type="6" offset="68" size="4">PAPER_VED_1_N_N0MIN</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MD2212:53" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 37</Name>
+<VariableList/>
+<TotalJobSize>204</TotalJobSize>
+<TagList>
+<Tag variable="PODV_VAL_N_N0MIN" type="6" offset="168" size="4">PODV_VAL_N_N0MIN</Tag>
+<Tag variable="BUM_NAPR_4_N_0" type="6" offset="148" size="4">BUM_NAPR_4_N_0</Tag>
+<Tag variable="KLEIL_PRES_1_N_N0MIN" type="6" offset="72" size="4">KLEIL_PRES_1_N_N0MIN</Tag>
+<Tag variable="KLEIL_PRES_2_N_N0MIN" type="6" offset="96" size="4">KLEIL_PRES_2_N_N0MIN</Tag>
+<Tag variable="SUS_GR3_KOEF_VIDHILU" type="6" offset="12" size="4">SUS_GR3_KOEF_VIDHILU</Tag>
+<Tag variable="NE_PODV_VAL_KOEF_VIDHILU" type="6" offset="180" size="4">NE_PODV_VAL_KOEF_VIDHILU</Tag>
+<Tag variable="PODV_VAL_NOMIN_OBERT" type="6" offset="176" size="4">PODV_VAL_NOMIN_OBERT</Tag>
+<Tag variable="KLEIL_PRES_2_N_0" type="6" offset="100" size="4">KLEIL_PRES_2_N_0</Tag>
+<Tag variable="BUM_NAPR_3_N_0" type="6" offset="124" size="4">BUM_NAPR_3_N_0</Tag>
+<Tag variable="SUS_GR4_KOEF_REDUC" type="6" offset="44" size="4">SUS_GR4_KOEF_REDUC</Tag>
+<Tag variable="BUM_NAPR_3_NOMIN_OBERT" type="6" offset="128" size="4">BUM_NAPR_3_NOMIN_OBERT</Tag>
+<Tag variable="NE_PODV_VAL_4_N_0" type="6" offset="196" size="4">NE_PODV_VAL_4_N_0</Tag>
+<Tag variable="SUS_GR4_NOMIN_OBERT" type="6" offset="56" size="4">SUS_GR4_NOMIN_OBERT</Tag>
+<Tag variable="KLEIL_PRES_1_KOEF_REDUC" type="6" offset="68" size="4">KLEIL_PRES_1_KOEF_REDUC</Tag>
+<Tag variable="KLEIL_PRES_1_N_0" type="6" offset="76" size="4">KLEIL_PRES_1_N_0</Tag>
+<Tag variable="SUS_GR2_NOMIN_OBERT" type="6" offset="8" size="4">SUS_GR2_NOMIN_OBERT</Tag>
+<Tag variable="BUM_NAPR_3_KOEF_VIDHILU" type="6" offset="108" size="4">BUM_NAPR_3_KOEF_VIDHILU</Tag>
+<Tag variable="SUS_GR4_N_0" type="5" offset="52" size="4">SUS_GR4_N_0</Tag>
+<Tag variable="KLEIL_PRES_1_D_vala" type="6" offset="64" size="4">KLEIL_PRES_1_D_vala</Tag>
+<Tag variable="BUM_NAPR_3_D_vala" type="6" offset="112" size="4">BUM_NAPR_3_D_vala</Tag>
+<Tag variable="SUS_GR4_D_vala" type="6" offset="40" size="4">SUS_GR4_D_vala</Tag>
+<Tag variable="NE_PODV_VAL_N_N0MIN" type="6" offset="192" size="4">NE_PODV_VAL_N_N0MIN</Tag>
+<Tag variable="PODV_VAL_D_vala" type="6" offset="160" size="4">PODV_VAL_D_vala</Tag>
+<Tag variable="KLEIL_PRES_2_KOEF_REDUC" type="6" offset="92" size="4">KLEIL_PRES_2_KOEF_REDUC</Tag>
+<Tag variable="NE_PODV_VAL_D_vala" type="6" offset="184" size="4">NE_PODV_VAL_D_vala</Tag>
+<Tag variable="KLEIL_PRES_2_NOMIN_OBERT" type="6" offset="104" size="4">KLEIL_PRES_2_NOMIN_OBERT</Tag>
+<Tag variable="SUS_GR3_N_0" type="6" offset="28" size="4">SUS_GR3_N_0</Tag>
+<Tag variable="KLEIL_PRES_2_KOEF_VIDHILU" type="6" offset="84" size="4">KLEIL_PRES_2_KOEF_VIDHILU</Tag>
+<Tag variable="SUS_GR2_N_0" type="6" offset="4" size="4">SUS_GR2_N_0</Tag>
+<Tag variable="BUM_NAPR_3_KOEF_REDUC" type="6" offset="116" size="4">BUM_NAPR_3_KOEF_REDUC</Tag>
+<Tag variable="PODV_VAL_N_0" type="6" offset="172" size="4">PODV_VAL_N_0</Tag>
+<Tag variable="SUS_GR3_D_vala" type="6" offset="16" size="4">SUS_GR3_D_vala</Tag>
+<Tag variable="BUM_NAPR_4_NOMIN_OBERT" type="6" offset="152" size="4">BUM_NAPR_4_NOMIN_OBERT</Tag>
+<Tag variable="NE_PODV_VAL_KOEF_REDUC" type="6" offset="188" size="4">NE_PODV_VAL_KOEF_REDUC</Tag>
+<Tag variable="SUS_GR4_N_N0MIN" type="6" offset="48" size="4">SUS_GR4_N_N0MIN</Tag>
+<Tag variable="SUS_GR4_KOEF_VIDHILU" type="6" offset="36" size="4">SUS_GR4_KOEF_VIDHILU</Tag>
+<Tag variable="KLEIL_PRES_1_NOMIN_OBERT" type="6" offset="80" size="4">KLEIL_PRES_1_NOMIN_OBERT</Tag>
+<Tag variable="SUS_GR3_NOMIN_OBERT" type="6" offset="32" size="4">SUS_GR3_NOMIN_OBERT</Tag>
+<Tag variable="BUM_NAPR_4_N_N0MIN" type="6" offset="144" size="4">BUM_NAPR_4_N_N0MIN</Tag>
+<Tag variable="BUM_NAPR_4_KOEF_REDUC" type="6" offset="140" size="4">BUM_NAPR_4_KOEF_REDUC</Tag>
+<Tag variable="PODV_VAL_KOEF_VIDHILU" type="6" offset="156" size="4">PODV_VAL_KOEF_VIDHILU</Tag>
+<Tag variable="KLEIL_PRES_1_KOEF_VIDHILU" type="6" offset="60" size="4">KLEIL_PRES_1_KOEF_VIDHILU</Tag>
+<Tag variable="NE_PODV_VAL_NOMIN_OBERT" type="6" offset="200" size="4">NE_PODV_VAL_NOMIN_OBERT</Tag>
+<Tag variable="BUM_NAPR_4_KOEF_VIDHILU" type="6" offset="132" size="4">BUM_NAPR_4_KOEF_VIDHILU</Tag>
+<Tag variable="SUS_GR2_N_N0MIN" type="6" offset="0" size="4">SUS_GR2_N_N0MIN</Tag>
+<Tag variable="SUS_GR3_N_N0MIN" type="6" offset="24" size="4">SUS_GR3_N_N0MIN</Tag>
+<Tag variable="PODV_VAL_KOEF_REDUC" type="6" offset="164" size="4">PODV_VAL_KOEF_REDUC</Tag>
+<Tag variable="SUS_GR3_KOEF_REDUC" type="6" offset="20" size="4">SUS_GR3_KOEF_REDUC</Tag>
+<Tag variable="KLEIL_PRES_2_D_vala" type="6" offset="88" size="4">KLEIL_PRES_2_D_vala</Tag>
+<Tag variable="BUM_NAPR_4_D_vala" type="6" offset="136" size="4">BUM_NAPR_4_D_vala</Tag>
+<Tag variable="BUM_NAPR_3_N_N0MIN" type="6" offset="120" size="4">BUM_NAPR_3_N_N0MIN</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MD2424:51" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 38</Name>
+<VariableList/>
+<TotalJobSize>212</TotalJobSize>
+<TagList>
+<Tag variable="SUS_GR7_Spped_drive" type="6" offset="48" size="4">SUS_GR7_Spped_drive</Tag>
+<Tag variable="GAUCH_VAL_Spped_drive" type="6" offset="120" size="4">GAUCH_VAL_Spped_drive</Tag>
+<Tag variable="KERVAL1_RPM" type="6" offset="164" size="4">KERVAL1_RPM</Tag>
+<Tag variable="ROZG_TAMBUR_Spped_drive" type="6" offset="112" size="4">ROZG_TAMBUR_Spped_drive</Tag>
+<Tag variable="KALANDR_RPM" type="6" offset="184" size="4">KALANDR_RPM</Tag>
+<Tag variable="PAPER_VED_2_Spped_drive" type="6" offset="96" size="4">PAPER_VED_2_Spped_drive</Tag>
+<Tag variable="KALANDR_Spped_drive" type="6" offset="56" size="4">KALANDR_Spped_drive</Tag>
+<Tag variable="SUSH_GR4_Spped_drive" type="6" offset="152" size="4">SUSH_GR4_Spped_drive</Tag>
+<Tag variable="KERVAL2_Spped_drive" type="6" offset="8" size="4">KERVAL2_Spped_drive</Tag>
+<Tag variable="JOLOB_VAL_Spped_drive" type="6" offset="80" size="4">JOLOB_VAL_Spped_drive</Tag>
+<Tag variable="SUSH_GR2_Spped_drive" type="6" offset="136" size="4">SUSH_GR2_Spped_drive</Tag>
+<Tag variable="SUSH_GR2_To_AO_Cont" type="6" offset="132" size="4">SUSH_GR2_To_AO_Cont</Tag>
+<Tag variable="SUS_GR7_RPM" type="6" offset="180" size="4">SUS_GR7_RPM</Tag>
+<Tag variable="SITKA_POV_VAL_Spped_drive" type="6" offset="128" size="4">SITKA_POV_VAL_Spped_drive</Tag>
+<Tag variable="SUS_GR6_Spped_drive" type="6" offset="40" size="4">SUS_GR6_Spped_drive</Tag>
+<Tag variable="JOLOB_VAL_RPM" type="6" offset="196" size="4">JOLOB_VAL_RPM</Tag>
+<Tag variable="VAL_GL_PERF_Spped_drive" type="6" offset="16" size="4">VAL_GL_PERF_Spped_drive</Tag>
+<Tag variable="VAL_GL_PERF_RPM" type="6" offset="172" size="4">VAL_GL_PERF_RPM</Tag>
+<Tag variable="SUS_GR6_RPM" type="6" offset="176" size="4">SUS_GR6_RPM</Tag>
+<Tag variable="SUSH_GR3_To_AO_Cont" type="6" offset="140" size="4">SUSH_GR3_To_AO_Cont</Tag>
+<Tag variable="NAKAT_Spped_drive" type="6" offset="64" size="4">NAKAT_Spped_drive</Tag>
+<Tag variable="VIDSM_VAL_RPM" type="6" offset="192" size="4">VIDSM_VAL_RPM</Tag>
+<Tag variable="SUS_GR5_RPM" type="6" offset="160" size="4">SUS_GR5_RPM</Tag>
+<Tag variable="PAPER_VED_3_RPM" type="6" offset="208" size="4">PAPER_VED_3_RPM</Tag>
+<Tag variable="GAUCH_VAL_To_AO_Cont" type="6" offset="116" size="4">GAUCH_VAL_To_AO_Cont</Tag>
+<Tag variable="MD3160" type="6" offset="156" size="4">MD3160</Tag>
+<Tag variable="PAPER_VED_1_Spped_drive" type="6" offset="88" size="4">PAPER_VED_1_Spped_drive</Tag>
+<Tag variable="PAPER_VED_2_RPM" type="6" offset="204" size="4">PAPER_VED_2_RPM</Tag>
+<Tag variable="SUSH_GR3_Spped_drive" type="6" offset="144" size="4">SUSH_GR3_Spped_drive</Tag>
+<Tag variable="SUS_GR1_Spped_drive" type="6" offset="24" size="4">SUS_GR1_Spped_drive</Tag>
+<Tag variable="KERVAL1_Spped_drive" type="6" offset="0" size="4">KERVAL1_Spped_drive</Tag>
+<Tag variable="NAKAT_RPM" type="6" offset="188" size="4">NAKAT_RPM</Tag>
+<Tag variable="PAPER_VED_1_RPM" type="6" offset="200" size="4">PAPER_VED_1_RPM</Tag>
+<Tag variable="VIDSM_VAL_Spped_drive" type="6" offset="72" size="4">VIDSM_VAL_Spped_drive</Tag>
+<Tag variable="PAPER_VED_3_Spped_drive" type="6" offset="104" size="4">PAPER_VED_3_Spped_drive</Tag>
+<Tag variable="SUSH_GR4_To_AO_Cont" type="6" offset="148" size="4">SUSH_GR4_To_AO_Cont</Tag>
+<Tag variable="SUS_GR5_Spped_drive" type="6" offset="32" size="4">SUS_GR5_Spped_drive</Tag>
+<Tag variable="SITKA_POV_VAL_To_AO_Cont" type="6" offset="124" size="4">SITKA_POV_VAL_To_AO_Cont</Tag>
+<Tag variable="KERVAL2_RPM" type="6" offset="168" size="4">KERVAL2_RPM</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MD3004:53" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC17_15" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 39</Name>
+<VariableList/>
+<TotalJobSize>96</TotalJobSize>
+<TagList>
+<Tag variable="KLEIL_PRES_1_To_AO_Cont" type="6" offset="24" size="4">KLEIL_PRES_1_To_AO_Cont</Tag>
+<Tag variable="SITKA_POV_VAL_RPM" type="6" offset="8" size="4">SITKA_POV_VAL_RPM</Tag>
+<Tag variable="KLEIL_PRES_2_Spped_drive" type="6" offset="40" size="4">KLEIL_PRES_2_Spped_drive</Tag>
+<Tag variable="KLEIL_PRES_1_RPM" type="6" offset="32" size="4">KLEIL_PRES_1_RPM</Tag>
+<Tag variable="PODV_VAL_Spped_drive" type="6" offset="64" size="4">PODV_VAL_Spped_drive</Tag>
+<Tag variable="PODV_VAL_To_AO_Cont" type="6" offset="60" size="4">PODV_VAL_To_AO_Cont</Tag>
+<Tag variable="KLEIL_PRES_2_RPM" type="6" offset="44" size="4">KLEIL_PRES_2_RPM</Tag>
+<Tag variable="KLEIL_PRES_2_To_AO_Cont" type="6" offset="36" size="4">KLEIL_PRES_2_To_AO_Cont</Tag>
+<Tag variable="KLEIL_PRES_4_RPM" type="6" offset="92" size="4">KLEIL_PRES_4_RPM</Tag>
+<Tag variable="BUM_NAPR_3_RPM" type="6" offset="56" size="4">BUM_NAPR_3_RPM</Tag>
+<Tag variable="BUM_NAPR_3_Speed_drive" type="6" offset="52" size="4">BUM_NAPR_3_Speed_drive</Tag>
+<Tag variable="SUSH_GR2_RPM" type="6" offset="12" size="4">SUSH_GR2_RPM</Tag>
+<Tag variable="PODV_VAL_RPM" type="6" offset="68" size="4">PODV_VAL_RPM</Tag>
+<Tag variable="SUSH_GR3_RPM" type="6" offset="16" size="4">SUSH_GR3_RPM</Tag>
+<Tag variable="NE_PODV_VAL_Spped_drive" type="6" offset="76" size="4">NE_PODV_VAL_Spped_drive</Tag>
+<Tag variable="SUSH_GR4_RPM" type="6" offset="20" size="4">SUSH_GR4_RPM</Tag>
+<Tag variable="KLEIL_PRES_4_Spped_drive" type="6" offset="88" size="4">KLEIL_PRES_4_Spped_drive</Tag>
+<Tag variable="KLEIL_PRES_1_Spped_drive" type="6" offset="28" size="4">KLEIL_PRES_1_Spped_drive</Tag>
+<Tag variable="GAUCH_VAL_RPM" type="6" offset="4" size="4">GAUCH_VAL_RPM</Tag>
+<Tag variable="ROZG_TAMBUR_RPM" type="6" offset="0" size="4">ROZG_TAMBUR_RPM</Tag>
+<Tag variable="KLEIL_PRES_4_To_AO_Cont" type="6" offset="84" size="4">KLEIL_PRES_4_To_AO_Cont</Tag>
+<Tag variable="NE_PODV_VAL_To_AO_Cont" type="6" offset="72" size="4">NE_PODV_VAL_To_AO_Cont</Tag>
+<Tag variable="NE_PODV_VAL_RPM" type="6" offset="80" size="4">NE_PODV_VAL_RPM</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MD3216:24" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC_DVG" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 40</Name>
+<VariableList/>
+<TotalJobSize>2</TotalJobSize>
+<TagList>
+<Tag variable="ÍÑ_33_1_â_ðîáîò³" type="0" offset="0" size="1">ÍÑ_33_1_â_ðîáîò³</Tag>
+<Tag variable="ÍÑ33_â_ðîáîò³" type="0" offset="1" size="1">ÍÑ33_â_ðîáîò³</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="M1003.5:2" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC_DVG" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 41</Name>
+<VariableList/>
+<TotalJobSize>55</TotalJobSize>
+<TagList>
+<Tag variable="EN_EM3" type="0" offset="43" size="1">EN_EM3</Tag>
+<Tag variable="EN_C8" type="0" offset="40" size="1">EN_C8</Tag>
+<Tag variable="EN_NC33_1" type="0" offset="31" size="1">EN_NC33_1</Tag>
+<Tag variable="EN_C9" type="0" offset="41" size="1">EN_C9</Tag>
+<Tag variable="EN_ZNM12" type="0" offset="10" size="1">EN_ZNM12</Tag>
+<Tag variable="EN_NV23" type="0" offset="0" size="1">EN_NV23</Tag>
+<Tag variable="EN_NM20" type="0" offset="20" size="1">EN_NM20</Tag>
+<Tag variable="EN_VTO" type="0" offset="52" size="1">EN_VTO</Tag>
+<Tag variable="EN_DS3" type="0" offset="47" size="1">EN_DS3</Tag>
+<Tag variable="EN_NV26" type="0" offset="24" size="1">EN_NV26</Tag>
+<Tag variable="EN_NV27" type="0" offset="25" size="1">EN_NV27</Tag>
+<Tag variable="EN_M4" type="0" offset="35" size="1">EN_M4</Tag>
+<Tag variable="EN_NM24" type="0" offset="23" size="1">EN_NM24</Tag>
+<Tag variable="EN_NV28" type="0" offset="26" size="1">EN_NV28</Tag>
+<Tag variable="EN_M5" type="0" offset="36" size="1">EN_M5</Tag>
+<Tag variable="EN_NV29" type="0" offset="8" size="1">EN_NV29</Tag>
+<Tag variable="EN_M6" type="0" offset="37" size="1">EN_M6</Tag>
+<Tag variable="EN_NO21" type="0" offset="21" size="1">EN_NO21</Tag>
+<Tag variable="EN_M7" type="0" offset="38" size="1">EN_M7</Tag>
+<Tag variable="EN_NO22" type="0" offset="22" size="1">EN_NO22</Tag>
+<Tag variable="EN_M8" type="0" offset="39" size="1">EN_M8</Tag>
+<Tag variable="EN_NC32" type="0" offset="29" size="1">EN_NC32</Tag>
+<Tag variable="EN_NC33" type="0" offset="30" size="1">EN_NC33</Tag>
+<Tag variable="EN_NC34" type="0" offset="32" size="1">EN_NC34</Tag>
+<Tag variable="EN_NC35" type="0" offset="33" size="1">EN_NC35</Tag>
+<Tag variable="EN_DM2" type="0" offset="34" size="1">EN_DM2</Tag>
+<Tag variable="EN_ZM2" type="0" offset="48" size="1">EN_ZM2</Tag>
+<Tag variable="EN_NV23_1" type="0" offset="1" size="1">EN_NV23_1</Tag>
+<Tag variable="EN_NM11" type="0" offset="9" size="1">EN_NM11</Tag>
+<Tag variable="EN_BB6" type="0" offset="45" size="1">EN_BB6</Tag>
+<Tag variable="EN_D2" type="0" offset="44" size="1">EN_D2</Tag>
+<Tag variable="EN_RB" type="0" offset="54" size="1">EN_RB</Tag>
+<Tag variable="EN_BB7" type="0" offset="46" size="1">EN_BB7</Tag>
+<Tag variable="EN_NM13" type="0" offset="11" size="1">EN_NM13</Tag>
+<Tag variable="EN_NM14" type="0" offset="12" size="1">EN_NM14</Tag>
+<Tag variable="EN_NM16" type="0" offset="14" size="1">EN_NM16</Tag>
+<Tag variable="EN_BFV" type="0" offset="51" size="1">EN_BFV</Tag>
+<Tag variable="EN_NM18" type="0" offset="17" size="1">EN_NM18</Tag>
+<Tag variable="EN_NM19" type="0" offset="18" size="1">EN_NM19</Tag>
+<Tag variable="EN_FVT" type="0" offset="53" size="1">EN_FVT</Tag>
+<Tag variable="EN_NM30" type="0" offset="27" size="1">EN_NM30</Tag>
+<Tag variable="EN_NM31" type="0" offset="28" size="1">EN_NM31</Tag>
+<Tag variable="EN_NM17_1" type="0" offset="15" size="1">EN_NM17_1</Tag>
+<Tag variable="EN_NM17_2" type="0" offset="16" size="1">EN_NM17_2</Tag>
+<Tag variable="EN_FT1" type="0" offset="42" size="1">EN_FT1</Tag>
+<Tag variable="ZNM12_MD" type="0" offset="2" size="1">ZNM12_MD</Tag>
+<Tag variable="EN_VN1" type="0" offset="3" size="1">EN_VN1</Tag>
+<Tag variable="EN_NM19_1" type="0" offset="19" size="1">EN_NM19_1</Tag>
+<Tag variable="EN_VN2" type="0" offset="4" size="1">EN_VN2</Tag>
+<Tag variable="EN_BV1" type="0" offset="49" size="1">EN_BV1</Tag>
+<Tag variable="EN_VN3" type="0" offset="5" size="1">EN_VN3</Tag>
+<Tag variable="EN_BV2" type="0" offset="50" size="1">EN_BV2</Tag>
+<Tag variable="EN_VN4" type="0" offset="6" size="1">EN_VN4</Tag>
+<Tag variable="EN_VN5" type="0" offset="7" size="1">EN_VN5</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="M2000.0:55" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC_DVG" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 42</Name>
+<VariableList/>
+<TotalJobSize>29</TotalJobSize>
+<TagList>
+<Tag variable="Start_manual_ZNM12" type="0" offset="28" size="1">Start_manual_ZNM12</Tag>
+<Tag variable="EN_RB1" type="0" offset="0" size="1">EN_RB1</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="M2006.6:29" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC_DVG" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 43</Name>
+<VariableList/>
+<TotalJobSize>1</TotalJobSize>
+<TagList>
+<Tag variable="Stop_manual_ZNM12" type="0" offset="0" size="1">Stop_manual_ZNM12</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="M2020.2" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC_DVG" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 44</Name>
+<VariableList/>
+<TotalJobSize>22</TotalJobSize>
+<TagList>
+<Tag variable="ZNM15_SP" type="0" offset="7" size="1">ZNM15_SP</Tag>
+<Tag variable="NM17_2_TZ" type="0" offset="18" size="1">NM17_2_TZ</Tag>
+<Tag variable="NM17_1_TZ" type="0" offset="15" size="1">NM17_1_TZ</Tag>
+<Tag variable="NM18_TZ" type="0" offset="21" size="1">NM18_TZ</Tag>
+<Tag variable="NM17_2_MD" type="0" offset="17" size="1">NM17_2_MD</Tag>
+<Tag variable="NM17_1_MD" type="0" offset="14" size="1">NM17_1_MD</Tag>
+<Tag variable="NM18_MD" type="0" offset="20" size="1">NM18_MD</Tag>
+<Tag variable="NM16_TZ" type="0" offset="12" size="1">NM16_TZ</Tag>
+<Tag variable="NM16_MD" type="0" offset="11" size="1">NM16_MD</Tag>
+<Tag variable="NM14_TZ" type="0" offset="6" size="1">NM14_TZ</Tag>
+<Tag variable="NM13_TZ" type="0" offset="3" size="1">NM13_TZ</Tag>
+<Tag variable="NM17_2_SP" type="0" offset="16" size="1">NM17_2_SP</Tag>
+<Tag variable="NM14_MD" type="0" offset="5" size="1">NM14_MD</Tag>
+<Tag variable="ZNM15_TZ" type="0" offset="9" size="1">ZNM15_TZ</Tag>
+<Tag variable="NM17_1_SP" type="0" offset="13" size="1">NM17_1_SP</Tag>
+<Tag variable="NM18_SP" type="0" offset="19" size="1">NM18_SP</Tag>
+<Tag variable="ZNM15_MD" type="0" offset="8" size="1">ZNM15_MD</Tag>
+<Tag variable="ZNM12_TZ" type="0" offset="0" size="1">ZNM12_TZ</Tag>
+<Tag variable="NM16_SP" type="0" offset="10" size="1">NM16_SP</Tag>
+<Tag variable="NM14_SP" type="0" offset="4" size="1">NM14_SP</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="M3000.5:22" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC_DVG" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 45</Name>
+<VariableList/>
+<TotalJobSize>6</TotalJobSize>
+<TagList>
+<Tag variable="NM11_SP" type="0" offset="0" size="1">NM11_SP</Tag>
+<Tag variable="ZNM12_SP" type="0" offset="3" size="1">ZNM12_SP</Tag>
+<Tag variable="NM11_TZ" type="0" offset="2" size="1">NM11_TZ</Tag>
+<Tag variable="NM11_MD" type="0" offset="1" size="1">NM11_MD</Tag>
+<Tag variable="EN_NV23_STOP" type="0" offset="5" size="1">EN_NV23_STOP</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="M3000.0:6" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC_DVG" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 46</Name>
+<VariableList/>
+<TotalJobSize>8</TotalJobSize>
+<TagList>
+<Tag variable="ÍÌ11" type="0" offset="0" size="1">ÍÌ11</Tag>
+<Tag variable="NM13_MD" type="0" offset="7" size="1">NM13_MD</Tag>
+<Tag variable="NM13_SP" type="0" offset="6" size="1">NM13_SP</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="M3000.0:8" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC_DVG" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 47</Name>
+<VariableList/>
+<TotalJobSize>1</TotalJobSize>
+<TagList>
+<Tag variable="EN_ZNM15" type="0" offset="0" size="1">EN_ZNM15</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="M3030.1" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC_DVG" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 48</Name>
+<VariableList/>
+<TotalJobSize>1</TotalJobSize>
+<TagList>
+<Tag variable="AUTO_NV23" type="0" offset="0" size="1">AUTO_NV23</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="M4000.0" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC_DVG" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 49</Name>
+<VariableList/>
+<TotalJobSize>3</TotalJobSize>
+<TagList>
+<Tag variable="ALRM_1" type="0" offset="0" size="1">ALRM_1</Tag>
+<Tag variable="ALRM_2" type="0" offset="1" size="1">ALRM_2</Tag>
+<Tag variable="ALRM_3" type="0" offset="2" size="1">ALRM_3</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="M7000.0:3" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC_KIP" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 50</Name>
+<VariableList/>
+<TotalJobSize>4</TotalJobSize>
+<TagList>
+<Tag variable="ZNM15_Zadanie" type="6" offset="0" size="4">ZNM15_Zadanie</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MD3000" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC_KIP" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 51</Name>
+<VariableList/>
+<TotalJobSize>4</TotalJobSize>
+<TagList>
+<Tag variable="ZNM12_Zadanie" type="6" offset="0" size="4">ZNM12_Zadanie</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MD3500" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="PLC_KIP" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="false" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 52</Name>
+<VariableList/>
+<TotalJobSize>12</TotalJobSize>
+<TagList>
+<Tag variable="Zavd_klapan_rets_NYA" type="6" offset="0" size="4">Zavd_klapan_rets_NYA</Tag>
+<Tag variable="Zavd_klapan_rozb_konts_masi" type="6" offset="8" size="4">Zavd_klapan_rozb_konts_masi</Tag>
+</TagList>
+<DeviceTaskSettings DeviceAddress="MD7000:3" S7_200="0" ExpandS7Group1="0"/>
+</Job>
+</JobList>
+<DynamicJobMap>
+<DynKey>
+<KeyName>PLC15_12J1A3DB0F2S00200</KeyName>
+<JobName>DynTask 1</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_11J1A3DB0F2S00300</KeyName>
+<JobName>DynTask 2</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A1DB0F0S00000</KeyName>
+<JobName>DynTask 4</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A1DB0F0S00000</KeyName>
+<JobName>DynTask 3</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A2DB0F0S00000</KeyName>
+<JobName>DynTask 5</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F0S00020</KeyName>
+<JobName>DynTask 6</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F0S00800</KeyName>
+<JobName>DynTask 7</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F0S00999</KeyName>
+<JobName>DynTask 8</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F0S01021</KeyName>
+<JobName>DynTask 9</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F0S01500</KeyName>
+<JobName>DynTask 10</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04000</KeyName>
+<JobName>DynTask 11</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04020</KeyName>
+<JobName>DynTask 12</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04040</KeyName>
+<JobName>DynTask 14</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04040</KeyName>
+<JobName>DynTask 13</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04060</KeyName>
+<JobName>DynTask 15</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04080</KeyName>
+<JobName>DynTask 16</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04100</KeyName>
+<JobName>DynTask 17</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04120</KeyName>
+<JobName>DynTask 18</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04140</KeyName>
+<JobName>DynTask 19</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04160</KeyName>
+<JobName>DynTask 20</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04180</KeyName>
+<JobName>DynTask 21</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04200</KeyName>
+<JobName>DynTask 22</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04220</KeyName>
+<JobName>DynTask 23</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04240</KeyName>
+<JobName>DynTask 24</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04260</KeyName>
+<JobName>DynTask 25</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04280</KeyName>
+<JobName>DynTask 26</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04300</KeyName>
+<JobName>DynTask 27</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04320</KeyName>
+<JobName>DynTask 28</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04340</KeyName>
+<JobName>DynTask 29</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04360</KeyName>
+<JobName>DynTask 30</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04380</KeyName>
+<JobName>DynTask 31</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04400</KeyName>
+<JobName>DynTask 32</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F2S04420</KeyName>
+<JobName>DynTask 33</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F3S00400</KeyName>
+<JobName>DynTask 34</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F3S02000</KeyName>
+<JobName>DynTask 35</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F3S02212</KeyName>
+<JobName>DynTask 36</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F3S02424</KeyName>
+<JobName>DynTask 37</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F3S03004</KeyName>
+<JobName>DynTask 38</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC17_15J1A3DB0F3S03216</KeyName>
+<JobName>DynTask 39</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC_DVGJ1A3DB0F0S01003</KeyName>
+<JobName>DynTask 40</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC_DVGJ1A3DB0F0S02000</KeyName>
+<JobName>DynTask 41</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC_DVGJ1A3DB0F0S02006</KeyName>
+<JobName>DynTask 42</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC_DVGJ1A3DB0F0S02020</KeyName>
+<JobName>DynTask 43</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC_DVGJ1A3DB0F0S03000</KeyName>
+<JobName>DynTask 46</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC_DVGJ1A3DB0F0S03000</KeyName>
+<JobName>DynTask 45</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC_DVGJ1A3DB0F0S03000</KeyName>
+<JobName>DynTask 44</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC_DVGJ1A3DB0F0S03030</KeyName>
+<JobName>DynTask 47</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC_DVGJ1A3DB0F0S04000</KeyName>
+<JobName>DynTask 48</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC_DVGJ1A3DB0F0S07000</KeyName>
+<JobName>DynTask 49</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC_KIPJ1A3DB0F3S03000</KeyName>
+<JobName>DynTask 50</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC_KIPJ1A3DB0F3S03500</KeyName>
+<JobName>DynTask 51</JobName>
+</DynKey>
+<DynKey>
+<KeyName>PLC_KIPJ1A3DB0F3S07000</KeyName>
+<JobName>DynTask 52</JobName>
+</DynKey>
+</DynamicJobMap>
+</DriverSettings>

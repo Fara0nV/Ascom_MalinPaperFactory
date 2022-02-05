@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<DriverSettings>
+<JobList>
+<Job>
+<Name Type="1" Station="HMI52_MT8102" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="true" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 1</Name>
+<VariableList/>
+<TotalJobSize>6</TotalJobSize>
+<TagList>
+<Tag variable="HMI52_LW_Bit203_0" type="4" offset="2" size="2">HMI52_LW_Bit203_0</Tag>
+<Tag variable="HMI52_LW_Bit_204_0" type="4" offset="4" size="2">HMI52_LW_Bit_204_0</Tag>
+<Tag variable="HMI52_LW202_0" type="4" offset="0" size="2">HMI52_LW202_0</Tag>
+</TagList>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="202" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="0"/>
+</Job>
+<Job>
+<Name Type="1" Station="HMI53_MT8102IP" PollingTime="0" PollingTimeNotInUse="10000" ConditionalVariable="" SwapByte="true" SwapWord="false" IsDynamic="true" OutputAtStartup="false" VarAddressOffset="" SwapDWordB="false" ExpandGroup1="0">DynTask 2</Name>
+<VariableList/>
+<TotalJobSize>2</TotalJobSize>
+<TagList>
+<Tag variable="EXAMPLE_VAR_53" type="4" offset="0" size="2">EXAMPLE_VAR_53</Tag>
+</TagList>
+<ModbusTCPIP UnitID="1" FunctionCode="2" StartAddress="200" RegisterSize="2" SwapDWord="false" ExpandModbusTcpGroup1="0"/>
+</Job>
+</JobList>
+<DynamicJobMap>
+<DynKey>
+<KeyName>HMI52_MT8102T1J1DW0W0B1A2R2S00202</KeyName>
+<JobName>DynTask 1</JobName>
+</DynKey>
+<DynKey>
+<KeyName>HMI53_MT8102IPT1J1DW0W0B1A2R2S00200</KeyName>
+<JobName>DynTask 2</JobName>
+</DynKey>
+</DynamicJobMap>
+</DriverSettings>
