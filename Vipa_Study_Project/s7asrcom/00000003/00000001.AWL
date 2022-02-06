@@ -1,0 +1,12 @@
+DATA_BLOCK DB 200
+TITLE =
+VERSION : 0.1
+
+
+  STRUCT 	
+   temp1 : INT  := 40;	//Temporary placeholder variable
+  END_STRUCT ;	
+BEGIN
+   temp1 := 0; 
+END_DATA_BLOCK
+
